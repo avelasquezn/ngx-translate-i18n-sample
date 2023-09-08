@@ -6,5 +6,5 @@ import {Component, Input} from '@angular/core';
   styleUrls: ['./translation-sample.component.css']
 })
 export class TranslationSampleComponent {
-  @Input() fullName: string;
+  @Input() fullName: string = "";
 }
