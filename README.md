@@ -1,6 +1,16 @@
 # NgxTranslateI18nSample
 
+## Summary
+This is a sample project to demonstrate how to use ngx-translate and i18n to translate and Angular application. It uses ngx-translate to translate de application text items, and ngx-translate-loader to load the translation files.
+
+## About Framework
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.1.
+
+## About Libraries
+This project uses the following libraries:
+- [ngx-translate](https://github.com/ngx-translate/core) - for translation.
+- [ngx-translate-loader](https://github.com/ngx-translate/http-loader) - for loading translation files.
+- [angular-material](https://material.angular.io/) - for UI components.
 
 ## Development server
 
