@@ -9,6 +9,9 @@ import {MatButtonToggleModule} from "@angular/material/button-toggle";
 import {HttpClient, HttpClientModule} from "@angular/common/http";
 import {TranslateHttpLoader} from "@ngx-translate/http-loader";
 import {TranslateLoader, TranslateModule} from "@ngx-translate/core";
+import { HomeComponent } from './public/pages/home/home.component';
+import { TranslationSampleComponent } from './public/components/translation-sample/translation-sample.component';
+import { LanguageSelectionComponent } from './public/components/language-selection/language-selection.component';
 
 export function createTranslateLoader(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
@@ -16,7 +19,10 @@ export function createTranslateLoader(http: HttpClient) {
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HomeComponent,
+    TranslationSampleComponent,
+    LanguageSelectionComponent
   ],
   imports: [
     BrowserModule,
